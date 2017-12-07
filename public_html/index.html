@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+        <title>Simple Chat - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/chat.css" rel="stylesheet">
+        <style type="text/css">
+
+        </style>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="js/md5.min.js"></script>
+    </head>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1>Secure Chat App</h1>
+                <p class="lead">Secure Chat App, Data solution build on top of ArcTop Labs #DataSolution #MasterDataNode EcoSystem</p>
+
+            </div>
+        </div>
+
+
+        <div class="row align-center">
+            <form role="form" class="col-md-3 col-sm-offset-2 go-right">
+                <p> Fill information to start chat</p>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input id="name" name="name" type="text" class="form-control" required>
+
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" name="emai" type="tel" class="form-control" required>
+
+                </div>
+                <div class="form-group">
+                    <label for="token">Access Token</label>
+                    <input id="token" name="token" type="tel" class="form-control" required>
+
+                </div>
+                <button type="button" id="startChat" name="startChat" class="btn btn-primary">Start Chat</button>
+                <button type="button" id="clearChat" name="clearChat" class="btn btn-primary">Clear your Chat</button>
+                <button type="button" id="reEnter" name="reEnter" class="btn btn-primary" style="margin-top : 10px">Re-Enter Personal Info</button>
+                <p> share the token with your friend having same files or app</p>
+            </form>
+            <div class="col-sm-4 col-sm-offset-1 frame">
+                <ul></ul>
+                <div>
+                    <div class="msj-rta macro" style="margin:auto">                        
+                        <div class="text text-r" style="background:whitesmoke !important">
+                            <input id="mytext" class="mytext" placeholder="Type a message"/>
+                        </div> 
+                    </div>
+
+
+                </div>
+            </div> 
+
+        </div>
+        
+    </div>
+
+
+    <script type="text/javascript" src="js/arctoplabs.js"></script>
+    <script type="text/javascript" src="js/chat.js"></script>
+
+</body>
+</html>
