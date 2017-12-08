@@ -19,6 +19,7 @@ html5chat.data = function (type) {
     var lf = parseInt(localStorage.getItem("lastfetch"));
     console.log(" ----- las lf set -------" + lf);
     var name = localStorage.getItem("name");
+    access_token = localStorage.getItem("token");
 //    var d = new Date();
 //    var nindex = d.getTime();
     console.log(" ======== auth token " + access_token);
@@ -31,7 +32,7 @@ html5chat.data = function (type) {
     };
 //                    alert("canvas clear");
 
-    if (access_token !== null) {
+    if (access_token !== null && access_token !== "") {
 
 
 
